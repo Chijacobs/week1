@@ -13,9 +13,9 @@ public class ASCIIExample {
 		    
 		    String str1 = "Hello!";
 
-		 // Print str1 in lower case? Will str1 change?
-		     str1.toLowerCase();
-		     System.out.println("In lowercase: " + str1);
+		 // Print out the last character?
+		     System.out.println("The last char. in " + str1 + ":" + str1.substring(8) );
+
 	}
 	
 }
